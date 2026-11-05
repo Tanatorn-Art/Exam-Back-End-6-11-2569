@@ -30,7 +30,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// เปิดใช้งาน Swagger UI สำหรับทั้ง Local Dev และ Production (https://api_exam.unknowsteps.company/swagger)
+// เปิดใช้งาน Swagger UI สำหรับทั้ง Local Dev และ Production (https://api-exam.unknowsteps.company/swagger)
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
